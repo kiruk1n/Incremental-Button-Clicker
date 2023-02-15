@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Incremental Clicker Game</title>
+	<style>
+		body {
+			text-align: center;
+			font-family: Arial, sans-serif;
+		}
+
+		#score {
+			font-size: 36px;
+			margin-top: 50px;
+			margin-bottom: 20px;
+		}
+
+		button {
+			font-size: 24px;
+			padding: 10px 20px;
+			border: none;
+			background-color: #007bff;
+			color: #fff;
+			border-radius: 5px;
+			cursor: pointer;
+			transition: background-color 0.2s;
+		}
+
+		button:hover {
+			background-color: #0062cc;
+		}
+	</style>
+</head>
+<body>
+	<h1>Incremental Clicker Game</h1>
+	<p>Click the button to earn points and buy upgrades!</p>
+	<div id="score">0</div>
+	<button id="clickBtn">Click Me!</button>
+	<p>Cost: <span id="upgradeCost">10</span> points</p>
+	<button id="upgradeBtn">Upgrade</button>
+
+	<script src="app.js"></script>
+</body>
+</html>
